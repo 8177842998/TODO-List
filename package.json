@@ -1,5 +1,5 @@
 {
-  "name": "todolist",
+  "name": "todo_app",
   "version": "1.0.0",
   "description": "Major project 1 : To Do List",
   "main": "index.js",
@@ -7,9 +7,15 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "todo",
+    "app"
+  ],
   "author": "Divya",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
   }
 }
